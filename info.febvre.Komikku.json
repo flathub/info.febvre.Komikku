@@ -39,7 +39,7 @@
                 {
                     "type" : "git",
                     "url" : "https://source.puri.sm/Librem5/libhandy.git",
-                    "tag" : "v0.0.11"
+                    "tag" : "v0.0.12"
                 }
             ]
         },
@@ -52,8 +52,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.5.1/Komikku-v0.5.1.tar.bz2",
-                    "sha256" : "babf766ab0d148b009b613051e2d34aa152b73e6c223888b583a0fd06a37076d"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.6.0/Komikku-v0.6.0.tar.bz2",
+                    "sha256" : "ea5938f86268a7c58e66609b5f10d1a873130ad08ea6429cd979f37a4e1ac1af"
                 }
             ]
         }
