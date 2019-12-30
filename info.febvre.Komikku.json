@@ -10,7 +10,8 @@
         "--share=network",
         "--socket=wayland",
         "--device=dri",
-        "--talk-name=org.freedesktop.Notifications"
+        "--talk-name=org.freedesktop.Notifications",
+        "--talk-name=org.gnome.SettingsDaemon.Color"
     ],
     "modules" : [
         "python3-wheel.json",
@@ -39,7 +40,7 @@
                 {
                     "type" : "git",
                     "url" : "https://source.puri.sm/Librem5/libhandy.git",
-                    "tag" : "v0.0.12"
+                    "tag" : "v0.0.13"
                 }
             ]
         },
@@ -52,8 +53,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.6.2/Komikku-v0.6.2.tar.bz2",
-                    "sha256" : "eecb17bc621e20f5ca5e2764fccfb125981dfa6fc14232243b68088be6b06f29"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.7.0/Komikku-v0.7.0.tar.bz2",
+                    "sha256" : "de784683d781c8948da0667de4ee069f90a357426b78f49d631ce7744a8f37fd"
                 }
             ]
         }
