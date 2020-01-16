@@ -14,13 +14,11 @@
         "--talk-name=org.gnome.SettingsDaemon.Color"
     ],
     "modules" : [
-        "python3-wheel.json",
         "python3-dateparser.json",
         "python3-pillow.json",
         "python3-pure-protobuf.json",
         "python3-python-magic.json",
         "python3-unidecode.json",
-        "python3-cffi.json",
         "python3-cloudscraper.json",
         "python3-lxml.json",
         "python3-beautifulsoup4.json",
@@ -55,8 +53,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.8.1/Komikku-v0.8.1.tar.bz2",
-                    "sha256" : "c0c39c1ad70f80bd5396e2994fcacc679d8d05326ff5287555e96824e6cd5a32"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.9.0/Komikku-v0.9.0.tar.bz2",
+                    "sha256" : "7a70591e297d6ee12e438c3f14d7a0c7d77ccc553d52af5f4728e039d4771264"
                 }
             ]
         }
