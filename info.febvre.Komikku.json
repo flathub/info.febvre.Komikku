@@ -6,8 +6,8 @@
     "command" : "komikku",
     "finish-args" : [
         "--share=ipc",
-        "--socket=x11",
         "--share=network",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri",
         "--talk-name=org.freedesktop.Notifications",
@@ -53,8 +53,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.9.0/Komikku-v0.9.0.tar.bz2",
-                    "sha256" : "7a70591e297d6ee12e438c3f14d7a0c7d77ccc553d52af5f4728e039d4771264"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.10.0/Komikku-v0.10.0.tar.bz2",
+                    "sha256" : "1faa754cb313f32de6d5e37b967a33ca9d64c0fb29e7754918469af02a2995cf"
                 }
             ]
         }
