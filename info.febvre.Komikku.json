@@ -11,6 +11,7 @@
         "--socket=wayland",
         "--device=dri",
         "--talk-name=org.freedesktop.Notifications",
+        "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.gnome.SettingsDaemon.Color"
     ],
     "modules" : [
@@ -53,8 +54,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.12.1/Komikku-v0.12.1.tar.bz2",
-                    "sha256" : "bb98725438531eddbec59090e688cf8d72daff67a9e4e8cac2394768a7fc6fe8"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.13.0/Komikku-v0.13.0.tar.bz2",
+                    "sha256" : "9da8314a78b96e2103a00a8195aed9111bc7c7249bc878d7ed53413d6a6dc654"
                 }
             ]
         }
