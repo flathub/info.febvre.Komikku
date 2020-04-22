@@ -16,9 +16,9 @@
     ],
     "modules" : [
         "python3-dateparser.json",
+        "python3-file-magic.json",
         "python3-pillow.json",
         "python3-pure-protobuf.json",
-        "python3-python-magic.json",
         "python3-unidecode.json",
         "python3-cloudscraper.json",
         "python3-lxml.json",
@@ -54,8 +54,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.14.0/Komikku-v0.14.0.tar.bz2",
-                    "sha256" : "834a8be8dcb0f7a0917bb9371e96123d5566af5b7de93b1b7f62c60e5116faf4"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.15.0/Komikku-v0.15.0.tar.bz2",
+                    "sha256" : "6f3a57a499d859d82dfbd066fbb70079bc91670825a9846d8138d6dd7ee68c01"
                 }
             ]
         }
