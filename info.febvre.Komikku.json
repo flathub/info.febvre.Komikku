@@ -15,14 +15,18 @@
         "--talk-name=org.gnome.SettingsDaemon.Color"
     ],
     "modules" : [
+        "python3-wheel.json",
+        "python3-cffi.json",
+        "python3-importlib-metadata.json",
+        "python3-keyring.json",
         "python3-dateparser.json",
         "python3-file-magic.json",
         "python3-pillow.json",
         "python3-pure-protobuf.json",
         "python3-unidecode.json",
-        "python3-cloudscraper.json",
         "python3-lxml.json",
         "python3-beautifulsoup4.json",
+        "python3-cloudscraper.json",
         {
             "name" : "libhandy",
             "buildsystem" : "meson",
@@ -44,7 +48,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "v0.80.0"
+                    "tag" : "v0.84.0"
                 }
             ]
         },
@@ -57,8 +61,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.17.0/Komikku-v0.17.0.tar.bz2",
-                    "sha256" : "d5c1de54835ebf3b27ddc795a08774ed437ac375298ed71e97a7af2bfeeb4a33"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.18.0/Komikku-v0.18.0.tar.bz2",
+                    "sha256" : "60359c91018fc4f8151064e5c1719bc490b0bc84b5581e70f210c586665b5c80"
                 }
             ]
         }
