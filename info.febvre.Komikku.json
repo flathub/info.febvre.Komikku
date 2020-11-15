@@ -48,7 +48,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "1.0.0"
+                    "tag" : "1.0.2"
                 }
             ]
         },
@@ -62,8 +62,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.21.1/Komikku-v0.21.1.tar.bz2",
-                    "sha256" : "89a83286ca808ca2024a501a387a1ca54939997f0aa16f082375cbfd524a486a"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.22.0/Komikku-v0.22.0.tar.bz2",
+                    "sha256" : "c1e4c5dc856fb840c0a172646d2a516d2b9b0b668494b4263162ac55ffa3e453"
                 }
             ]
         }
