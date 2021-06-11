@@ -27,7 +27,7 @@
         "python3-lxml.json",
         "python3-beautifulsoup4.json",
         "python3-brotli.json",
-        "python3-requests.json",
+        "python3-cloudscraper.json",
         {
             "name" : "libhandy",
             "buildsystem" : "meson",
@@ -63,8 +63,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.29.1/Komikku-v0.29.1.tar.bz2",
-                    "sha256" : "6384acf9a1207bd1519a3cc23a34c3879cabb300eea56d312cf965c018b9c7c8"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.29.2/Komikku-v0.29.2.tar.bz2",
+                    "sha256" : "95600cbb1386b3891acda171f96a396d5bc546a54e7775cf2149fabe2fc3173e"
                 }
             ]
         }
