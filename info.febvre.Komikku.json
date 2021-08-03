@@ -21,6 +21,7 @@
         "python3-keyring.json",
         "python3-dateparser.json",
         "python3-file-magic.json",
+        "python3-natsort.json",
         "python3-pillow.json",
         "python3-pure-protobuf.json",
         "python3-unidecode.json",
@@ -49,7 +50,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "1.2.2"
+                    "tag" : "1.2.3"
                 }
             ]
         },
@@ -63,8 +64,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.29.2/Komikku-v0.29.2.tar.bz2",
-                    "sha256" : "95600cbb1386b3891acda171f96a396d5bc546a54e7775cf2149fabe2fc3173e"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.30.0/Komikku-v0.30.0.tar.bz2",
+                    "sha256" : "2d38c2787a4a53cf78b13b5f13500a84492d48257e5e0d2340f3092c3fc8c53a"
                 }
             ]
         }
