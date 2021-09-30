@@ -2,18 +2,18 @@
     "name": "python3-beautifulsoup4",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} beautifulsoup4"
+        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"beautifulsoup4\""
     ],
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/fb/9e/2e236603b058daa6820193d4d95f4dcfbbbd0d3c709bec8c6ef1b1902501/soupsieve-1.9.1.tar.gz",
-            "sha256": "b20eff5e564529711544066d7dc0f7661df41232ae263619dede5059799cdfca"
+            "url": "https://files.pythonhosted.org/packages/69/bf/f0f194d3379d3f3347478bd267f754fc68c11cbf2fe302a6ab69447b1417/beautifulsoup4-4.10.0-py3-none-any.whl",
+            "sha256": "9a315ce70049920ea4572a4055bc4bd700c940521d36fc858205ad4fcde149bf"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/80/f2/f6aca7f1b209bb9a7ef069d68813b091c8c3620642b568dac4eb0e507748/beautifulsoup4-4.7.1.tar.gz",
-            "sha256": "945065979fb8529dd2f37dbb58f00b661bdbcbebf954f93b32fdf5263ef35348"
+            "url": "https://files.pythonhosted.org/packages/36/69/d82d04022f02733bf9a72bc3b96332d360c0c5307096d76f6bb7489f7e57/soupsieve-2.2.1-py3-none-any.whl",
+            "sha256": "c2c1c2d44f158cdbddab7824a9af8c4f83c76b1e23e049479aa432feb6c4c23b"
         }
     ]
 }
