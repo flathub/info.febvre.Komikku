@@ -1,7 +1,7 @@
 {
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "41",
     "sdk" : "org.gnome.Sdk",
     "command" : "komikku",
     "finish-args" : [
@@ -29,31 +29,6 @@
         "python3-beautifulsoup4.json",
         "python3-brotli.json",
         "python3-cloudscraper.json",
-        {
-            "name" : "libhandy",
-            "buildsystem" : "meson",
-            "config-opts" : [
-                "--buildtype=release",
-                "-Dprofiling=false",
-                "-Dintrospection=enabled",
-                "-Dtests=false",
-                "-Dexamples=false",
-                "-Dgtk_doc=false",
-                "-Dvapi=false",
-                "-Dglade_catalog=disabled"
-            ],
-            "cleanup" : [
-                "/include",
-                "/lib/pkgconfig"
-            ],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "1.4.0"
-                }
-            ]
-        },
         {
             "name" : "komikku",
             "buildsystem" : "meson",
