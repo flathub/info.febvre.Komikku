@@ -30,6 +30,31 @@
         "python3-brotli.json",
         "python3-cloudscraper.json",
         {
+            "name" : "libhandy",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "--buildtype=release",
+                "-Dprofiling=false",
+                "-Dintrospection=enabled",
+                "-Dtests=false",
+                "-Dexamples=false",
+                "-Dgtk_doc=false",
+                "-Dvapi=false",
+                "-Dglade_catalog=disabled"
+            ],
+            "cleanup" : [
+                "/include",
+                "/lib/pkgconfig"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
+                    "tag" : "1.5.0"
+                }
+            ]
+        },
+        {
             "name" : "komikku",
             "buildsystem" : "meson",
             "builddir" : true,
@@ -39,8 +64,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.35.2/Komikku-v0.35.2.tar.bz2",
-                    "sha256" : "531f36a2a0ffe085af5f95964e05073b3eabf3c2f7b82298828336991764b55a"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.36.0/Komikku-v0.36.0.tar.bz2",
+                    "sha256" : "77a5ef2703e3eaa2763ba968f5936cdf63dae65323aae6bacf78eb0b035428ec"
                 }
             ]
         }
