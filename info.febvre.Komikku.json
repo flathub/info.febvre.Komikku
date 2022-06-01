@@ -1,7 +1,7 @@
 {
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "41",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "komikku",
     "finish-args" : [
@@ -50,7 +50,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "1.5.90"
+                    "tag" : "1.6.2"
                 }
             ]
         },
@@ -64,8 +64,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.38.0/Komikku-v0.38.0.tar.bz2",
-                    "sha256" : "3d856eadba71dcce37b4d3d6c3a9f5b00c815ec5bf2d50fefa34814db850a5b4"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.39.0/Komikku-v0.39.0.tar.bz2",
+                    "sha256" : "0a5a358cfcf7a0f5c975759536b25a78d3f811f12549296e9e9f4effedc2f548"
                 }
             ]
         }
