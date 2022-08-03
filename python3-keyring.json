@@ -7,28 +7,33 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/96/17/86e1e5b50dc14e5984a661dde2ed3b7f05efe1fdee32145a77708cf06904/keyring-22.0.1-py3-none-any.whl",
-            "sha256": "9f44660a5d4931bdc14c08a1d01ef30b18a7a8147380710d8c9f9531e1f6c3c0"
+            "url": "https://files.pythonhosted.org/packages/ae/72/2a1e2290f1ab1e06f71f3d0f1646c9e4634e70e1d37491535e19266e8dc9/jeepney-0.8.0-py3-none-any.whl",
+            "sha256": "c0a454ad016ca575060802ee4d590dd912e35c122fa04e70306de3d076cce755"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/63/a2/a6d9099b14eb5dbbb04fb722d2b5322688f8f99b471bdf2097e33efa8091/SecretStorage-3.3.0-py3-none-any.whl",
-            "sha256": "5c36f6537a523ec5f969ef9fad61c98eb9e017bc601d811e53aa25bece64892f"
+            "url": "https://files.pythonhosted.org/packages/2b/a8/050ab4f0c3d4c1b8aaa805f70e26e84d0e27004907c5b8ecc1d31815f92a/cffi-1.15.1.tar.gz",
+            "sha256": "d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl",
-            "sha256": "8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
+            "url": "https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl",
+            "sha256": "8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/51/b0/a6ea72741aaac3f37fb96d195e4ee576a103c4c04e279bc6b446a70960e1/jeepney-0.6.0-py3-none-any.whl",
-            "sha256": "aec56c0eb1691a841795111e184e13cad504f7703b9a64f63020816afa79a8ae"
+            "url": "https://files.pythonhosted.org/packages/4c/84/a327a91da22f03df2aa6e0202c15647f2fad9d9230aa7a472a0bb1cc9dce/keyring-23.7.0-py3-none-any.whl",
+            "sha256": "e67fc91a7955785fd2efcbccdd72d7dacf136dbc381d27de305b2b660b3de886"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/b7/82/f7a4ddc1af185936c1e4fa000942ffa8fb2d98cff26b75afa7b3c63391c4/cryptography-3.3.1.tar.gz",
-            "sha256": "7e177e4bea2de937a584b13645cab32f25e3d96fc0bc4a4cf99c27dc77682be6"
+            "url": "https://files.pythonhosted.org/packages/54/42/7cf083c31a9739b40ed683fad17460d1db97ecd23c344df25e41fa9e85e2/SecretStorage-3.3.2-py3-none-any.whl",
+            "sha256": "755dc845b6ad76dcbcbc07ea3da75ae54bb1ea529eb72d15f83d26499a5df319"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/89/d9/5fcd312d5cce0b4d7ee8b551a0ea99e4ea9db0fdbf6dd455a19042e3370b/cryptography-37.0.4.tar.gz",
+            "sha256": "63f9c17c0e2474ccbebc9302ce2f07b55b3b3fcb211ded18a42d5764f5c10a82"
         }
     ]
 }
