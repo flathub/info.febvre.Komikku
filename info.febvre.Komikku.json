@@ -2,6 +2,8 @@
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "master",
+    "sdk" : "org.gnome.Sdk",
+    "sdk-version" : "master",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
