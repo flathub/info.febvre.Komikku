@@ -22,8 +22,8 @@
         "--talk-name=org.gnome.SettingsDaemon.Color"
     ],
     "modules" : [
-        "python3-cffi.json",
         "python3-setuptools_rust.json",
+        "python3-cffi.json",
         "python3-keyring.json",
         "python3-dateparser.json",
         "python3-file-magic.json",
@@ -46,7 +46,7 @@
                 {
                     "type" : "archive",
                     "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.0.beta2/Komikku-v1.0.beta2.tar.bz2",
-                    "sha256" : "3329a3f42027d18e13a27f0bb6df23397c3e6740e783dcf44e7447b9e2b7e96b"
+                    "sha256" : "12bab74b73faa48b6e6c64db699a5f1cac54705198b3d32c6b430bc3d48c4f02"
                 }
             ]
         }
