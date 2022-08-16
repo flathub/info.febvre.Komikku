@@ -4,6 +4,9 @@
     "build-commands": [
         "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"keyring\" --no-build-isolation"
     ],
+    "build-options": {
+        "build-args": [ "--share=network" ]
+    },
     "sources": [
         {
             "type": "file",
