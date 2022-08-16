@@ -4,9 +4,6 @@
     "build-commands": [
         "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"keyring\" --no-build-isolation"
     ],
-    "build-options": {
-        "build-args": [ "--share=network" ]
-    },
     "sources": [
         {
             "type": "file",
@@ -27,6 +24,12 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/89/d9/5fcd312d5cce0b4d7ee8b551a0ea99e4ea9db0fdbf6dd455a19042e3370b/cryptography-37.0.4.tar.gz",
             "sha256": "63f9c17c0e2474ccbebc9302ce2f07b55b3b3fcb211ded18a42d5764f5c10a82"
+        },
+        "python3-cryptography-cargo-deps.json"
+    ],
+    "build-options": {
+        "env": {
+            "CARGO_HOME": "/run/build/python3-keyring/cargo"
         }
-    ]
+    }
 }
