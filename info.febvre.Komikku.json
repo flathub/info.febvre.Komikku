@@ -37,7 +37,7 @@
             "buildsystem" : "meson",
             "builddir" : true,
             "config-opts" : [
-                "-Dprofile=beta"
+                "-Dprofile=default"
             ],
             "sources" : [
                 {
