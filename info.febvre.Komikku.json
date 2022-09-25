@@ -1,8 +1,11 @@
 {
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "43",
     "sdk" : "org.gnome.Sdk",
+    "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
     "command" : "komikku",
     "finish-args" : [
         "--share=ipc",
@@ -16,7 +19,7 @@
         "--talk-name=org.gnome.SettingsDaemon.Color"
     ],
     "modules" : [
-        "python3-wheel.json",
+        "python3-setuptools_rust.json",
         "python3-cffi.json",
         "python3-keyring.json",
         "python3-dateparser.json",
@@ -30,31 +33,6 @@
         "python3-brotli.json",
         "python3-cloudscraper.json",
         {
-            "name" : "libhandy",
-            "buildsystem" : "meson",
-            "config-opts" : [
-                "--buildtype=release",
-                "-Dprofiling=false",
-                "-Dintrospection=enabled",
-                "-Dtests=false",
-                "-Dexamples=false",
-                "-Dgtk_doc=false",
-                "-Dvapi=false",
-                "-Dglade_catalog=disabled"
-            ],
-            "cleanup" : [
-                "/include",
-                "/lib/pkgconfig"
-            ],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libhandy.git",
-                    "tag" : "1.7.0"
-                }
-            ]
-        },
-        {
             "name" : "komikku",
             "buildsystem" : "meson",
             "builddir" : true,
@@ -64,10 +42,13 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v0.41.0/Komikku-v0.41.0.tar.bz2",
-                    "sha256" : "0330b9862f0cef1f04649f923f0cf926990bff6a1eef1a82cf6448f19b320b7c"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.0.0/Komikku-v1.0.0.tar.bz2",
+                    "sha256" : "c98f3dfbf6543a19e0dbc26ac62f0178bd1476761f1c559828d82376ac46a23f"
                 }
             ]
         }
-    ]
+    ],
+    "build-options" : {
+        "append-path" : "/usr/lib/sdk/rust-stable/bin"
+    }
 }
