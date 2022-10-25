@@ -1,0 +1,14 @@
+{
+    "name": "python3-rarfile",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"rarfile\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/95/f4/c92fab227c7457e3b76a4096ccb655ded9deac869849cb03afbe55dfdc1e/rarfile-4.0-py3-none-any.whl",
+            "sha256": "1094869119012f95c31a6f22cc3a9edbdca61861b805241116adbe2d737b68f8"
+        }
+    ]
+}
