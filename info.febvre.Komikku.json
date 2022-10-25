@@ -32,6 +32,7 @@
         "python3-beautifulsoup4.json",
         "python3-brotli.json",
         "python3-cloudscraper.json",
+        "python3-rarfile.json",
         {
             "name" : "komikku",
             "buildsystem" : "meson",
