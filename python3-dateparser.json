@@ -2,28 +2,23 @@
     "name": "python3-dateparser",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"dateparser\""
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"dateparser\" --no-build-isolation"
     ],
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e9/ee/91ad58de5cbd071ecab632a3a5ebea2b39937cf0691b7e1b4afff4a5eb7d/dateparser-1.1.1-py2.py3-none-any.whl",
-            "sha256": "9600874312ff28a41f96ec7ccdc73be1d1c44435719da47fea3339d55ff5a628"
+            "url": "https://files.pythonhosted.org/packages/b5/d7/91fd8911d22e7fac794803095dd192bf1ebd70c7603272085230d915e738/pytz-2022.5-py2.py3-none-any.whl",
+            "sha256": "335ab46900b1465e714b4fda4963d87363264eb662aab5e65da039c25f1f5b22"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/89/2d/49329ebec33b14dae61ecc8c85abe596341832fa36c4bcd3d99fddda018b/tzdata-2022.1-py2.py3-none-any.whl",
-            "sha256": "238e70234214138ed7b4e8a0fab0e5e13872edab3be586ab8198c407620e2ab9"
+            "url": "https://files.pythonhosted.org/packages/d5/90/80d787eab0971e22903c8b89cff7891b21adef174aa6434d1a04f9b5ba35/tzdata-2022.5-py2.py3-none-any.whl",
+            "sha256": "323161b22b7802fdc78f20ca5f6073639c64f1a7227c40cd3e19fd1d0ce6650a"
         },
         {
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/31/b7/3bc2c1868f27677139b772e4fde95265b93151912fd90eb874827943bfcf/tzlocal-4.2-py3-none-any.whl",
             "sha256": "89885494684c929d9191c57aa27502afc87a579be5cdd3225c77c463ea043745"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
-            "sha256": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
         },
         {
             "type": "file",
@@ -42,8 +37,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/60/2e/dec1cc18c51b8df33c7c4d0a321b084cf38e1733b98f9d15018880fb4970/pytz-2022.1-py2.py3-none-any.whl",
-            "sha256": "e68985985296d9a66a881eb3193b0906246245294a881e7c8afe623866ac6a5c"
+            "url": "https://files.pythonhosted.org/packages/e6/53/851ddd7bfe3967e4ed8f202c09ce259774dde970e804137f57c00f3dc8ad/dateparser-1.1.2-py2.py3-none-any.whl",
+            "sha256": "d31659dc806a7d88e2b510b2c74f68b525ae531f145c62a57a99bd616b7f90cf"
         }
     ]
 }
