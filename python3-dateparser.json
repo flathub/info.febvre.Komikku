@@ -7,13 +7,8 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/b5/d7/91fd8911d22e7fac794803095dd192bf1ebd70c7603272085230d915e738/pytz-2022.5-py2.py3-none-any.whl",
-            "sha256": "335ab46900b1465e714b4fda4963d87363264eb662aab5e65da039c25f1f5b22"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d5/90/80d787eab0971e22903c8b89cff7891b21adef174aa6434d1a04f9b5ba35/tzdata-2022.5-py2.py3-none-any.whl",
-            "sha256": "323161b22b7802fdc78f20ca5f6073639c64f1a7227c40cd3e19fd1d0ce6650a"
+            "url": "https://files.pythonhosted.org/packages/61/1e/3c4bf37f8d6ceba07ae357e70eedd21bd15a032b460bab6b12a58c0fce9d/tzdata-2022.6-py2.py3-none-any.whl",
+            "sha256": "04a680bdc5b15750c39c12a448885a51134a27ec9af83667663f0b3a1bf3f342"
         },
         {
             "type": "file",
@@ -22,8 +17,18 @@
         },
         {
             "type": "file",
+            "url": "https://files.pythonhosted.org/packages/85/ac/92f998fc52a70afd7f6b788142632afb27cd60c8c782d1452b7466603332/pytz-2022.6-py2.py3-none-any.whl",
+            "sha256": "222439474e9c98fced559f1709d89e6c9cbf8d79c794ff3eb9f8800064291427"
+        },
+        {
+            "type": "file",
             "url": "https://files.pythonhosted.org/packages/4f/17/21e7195da87bcdbdd4ec32fdfdc87ccd5cf97b0a18e0f08ecacbaefca284/regex-2022.3.2.tar.gz",
             "sha256": "79e5af1ff258bc0fe0bdd6f69bc4ae33935a898e3cbefbbccf22e88a27fa053b"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/8e/ef/f90aada30357af0c8c502e300322816a799d9d8ef109b5f10542b4aaa8ec/dateparser-1.1.3-py2.py3-none-any.whl",
+            "sha256": "711f7eef6d431225bec56c00e386af3f6a47083276253375bdae1ae6c8d23d4a"
         },
         {
             "type": "file",
@@ -34,11 +39,6 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/eb/73/3eaab547ca809754e67e06871cff0fc962bafd4b604e15f31896a0f94431/pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl",
             "sha256": "8314c9692a636c8eb3bda879b9f119e350e93223ae83e70e80c31675a0fdc1a6"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e6/53/851ddd7bfe3967e4ed8f202c09ce259774dde970e804137f57c00f3dc8ad/dateparser-1.1.2-py2.py3-none-any.whl",
-            "sha256": "d31659dc806a7d88e2b510b2c74f68b525ae531f145c62a57a99bd616b7f90cf"
         }
     ]
 }

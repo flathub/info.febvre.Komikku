@@ -34,6 +34,65 @@
         "python3-cloudscraper.json",
         "python3-rarfile.json",
         {
+            "name": "gnustep-make",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./configure --prefix=/app",
+                "make -j $FLATPAK_BUILDER_N_JOBS install"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/gnustep/tools-make/archive/make-2_9_0.tar.gz",
+                    "sha256": "f7c69bea7f26ca5d4ce6ad82fbe94d2405cf238d652ea608fe387a70a5e0232c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1220,
+                        "stable-only": true,
+                        "url-template": "https://github.com/gnustep/tools-make/archive/make-${major}_${minor}_$patch.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "gnustep",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./configure --prefix=/app",
+                "make -j $FLATPAK_BUILDER_N_JOBS install",
+                "ls /app/include"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/gnustep/libs-base/releases/download/base-1_28_0/gnustep-base-1.28.0.tar.gz",
+                    "sha256": "c7d7c6e64ac5f5d0a4d5c4369170fc24ed503209e91935eb0e2979d1601039ed",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 9105,
+                        "stable-only": true,
+                        "url-template": "https://github.com/gnustep/libs-base/releases/download/base-${major}_${minor}_$patch/gnustep-base-$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "unarchiver",
+            "buildsystem": "simple",
+            "build-commands": [
+                "sed -s -i 's#/usr/include/GNUstep#/app/include#g' */Makefile.linux && cd XADMaster && make -j $FLATPAK_BUILDER_N_JOBS -f Makefile.linux",
+                "install -m755 XADMaster/unar /app/bin/"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://cdn.theunarchiver.com/downloads/TheUnarchiverSource.zip",
+                    "sha256": "ac4cedf9b49375c0f805bda010fa03629d05ab283a0a8e35bf2dd01ae477e0a1",
+                    "strip-components": 0
+                }
+            ]
+        },
+        {
             "name" : "komikku",
             "buildsystem" : "meson",
             "builddir" : true,
@@ -43,8 +102,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.2.0/Komikku-v1.2.0.tar.bz2",
-                    "sha256" : "a1411ca02d3086e88e0645d30b1a99469cc2be1ae1ba515478a9dd9a794ba23b"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.3.0/Komikku-v1.3.0.tar.bz2",
+                    "sha256" : "8e6a84ec868b89e85e1c7dc60eda3040d3f13fbbc89f51d59cdc67859d293f30"
                 }
             ]
         }
