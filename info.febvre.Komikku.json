@@ -33,6 +33,7 @@
         "python3-brotli.json",
         "python3-cloudscraper.json",
         "python3-rarfile.json",
+        "python3-emoji.json",
         {
             "name": "gnustep-make",
             "buildsystem": "simple",
