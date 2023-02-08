@@ -7,13 +7,8 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/27/b5/92d404279fd5f4f0a17235211bb0f5ae7a0d9afb7f439086ec247441ed28/regex-2022.10.31.tar.gz",
-            "sha256": "a3a98921da9a1bf8457aeee6a551948a83601689e5ecdd736894ea9bbec77e83"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a2/ae/61a2a31028c7cfa413ba07c0656fa00d35778b951920f82b246d0977a108/dateparser-1.1.5-py2.py3-none-any.whl",
-            "sha256": "ceb159f1b4a9df54ed6209e91298097deafde476037f8611b4cb2b1cb8b31c58"
+            "url": "https://files.pythonhosted.org/packages/2e/09/fbd3c46dce130958ee8e0090f910f1fe39e502cc5ba0aadca1e8a2b932e5/pytz-2022.7.1-py2.py3-none-any.whl",
+            "sha256": "78f4f37d8198e0627c5f1143240bb0206b8691d8d7ac6d78fee88b78733f8c4a"
         },
         {
             "type": "file",
@@ -22,8 +17,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/3d/19/4de17f0d5cf5a0d87aa67532d4c2fa75e6e7d8df13c27635ff40fa6f4b76/pytz-2022.7-py2.py3-none-any.whl",
-            "sha256": "93007def75ae22f7cd991c84e02d434876818661f8df9ad5df9e950ff4e52cfd"
+            "url": "https://files.pythonhosted.org/packages/27/b5/92d404279fd5f4f0a17235211bb0f5ae7a0d9afb7f439086ec247441ed28/regex-2022.10.31.tar.gz",
+            "sha256": "a3a98921da9a1bf8457aeee6a551948a83601689e5ecdd736894ea9bbec77e83"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/12/33/38496e1b43056178fec1d96ebe27dae2d256bedc6071ba174c2fc45b9aad/dateparser-1.1.7-py2.py3-none-any.whl",
+            "sha256": "fbed8b738a24c9cd7f47c4f2089527926566fe539e1a06125eddba75917b1eef"
         },
         {
             "type": "file",
