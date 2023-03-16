@@ -34,6 +34,7 @@
         "python3-cloudscraper.json",
         "python3-rarfile.json",
         "python3-emoji.json",
+        "python3-piexif.json",
         {
             "name": "gnustep-make",
             "buildsystem": "simple",
@@ -103,8 +104,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.14.0/Komikku-v1.14.0.tar.bz2",
-                    "sha256" : "7ca5961758273eea625e89336289ed4a89da39eac6a0f6eba380b047bfedfbdd"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.15.0/Komikku-v1.15.0.tar.bz2",
+                    "sha256" : "2c944d82d2925d6dccf3739b624cf8a2166346137f92d6a41c487e69dae3f4c7"
                 }
             ]
         }
