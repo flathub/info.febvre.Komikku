@@ -45,8 +45,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/gnustep/tools-make/archive/make-2_9_0.tar.gz",
-                    "sha256": "f7c69bea7f26ca5d4ce6ad82fbe94d2405cf238d652ea608fe387a70a5e0232c",
+                    "url": "https://github.com/gnustep/tools-make/archive/make-2_9_1.tar.gz",
+                    "sha256": "78ef0f68402c379979a9a46499ac308fe5c1512aa198138c87649ee611aedf41",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1220,
@@ -67,8 +67,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/gnustep/libs-base/releases/download/base-1_28_0/gnustep-base-1.28.0.tar.gz",
-                    "sha256": "c7d7c6e64ac5f5d0a4d5c4369170fc24ed503209e91935eb0e2979d1601039ed",
+                    "url": "https://github.com/gnustep/libs-base/releases/download/base-1_29_0/gnustep-base-1.29.0.tar.gz",
+                    "sha256": "fa58eda665c3e0b9c420dc32bb3d51247a407c944d82e5eed1afe8a2b943ef37",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9105,
