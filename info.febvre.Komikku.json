@@ -51,7 +51,7 @@
                         "type": "anitya",
                         "project-id": 1220,
                         "stable-only": true,
-                        "url-template": "https://github.com/gnustep/tools-make/archive/make-${major}_${minor}_$patch.tar.gz"
+                        "url-template": "https://github.com/gnustep/tools-make/archive/make-$version.tar.gz"
                     }
                 }
             ]
@@ -73,7 +73,7 @@
                         "type": "anitya",
                         "project-id": 9105,
                         "stable-only": true,
-                        "url-template": "https://github.com/gnustep/libs-base/releases/download/base-${major}_${minor}_$patch/gnustep-base-$version.tar.gz"
+                        "url-template": "https://github.com/gnustep/libs-base/releases/download/base-$version/gnustep-base-1.$patch.0.tar.gz"
                     }
                 }
             ]
