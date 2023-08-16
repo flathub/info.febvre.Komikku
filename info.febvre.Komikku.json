@@ -104,13 +104,35 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.22.0/Komikku-v1.22.0.tar.bz2",
-                    "sha256" : "9d3d37890972cd045001c5b56a1743116f4aac879b1b3a03d5d11d38db56bd48"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.23.0/Komikku-v1.23.0.tar.bz2",
+                    "sha256" : "05ed77580552354440247e318900749549552f6abb04e02f5ce17a026a7a1ffb"
                 }
             ]
         }
     ],
     "build-options" : {
         "append-path" : "/usr/lib/sdk/rust-stable/bin"
-    }
+    },
+    "cleanup": [
+        "/bin/cvtenc",
+        "/bin/autogsdoc",
+        "/bin/debugapp",
+        "/bin/defaults",
+        "/bin/gdnc",
+        "/bin/gdomap",
+        "/bin/gnustep*",
+        "/bin/gspath",
+        "/bin/HTMLLinker",
+        "/bin/make_strings",
+        "/bin/openapp",
+        "/bin/opentool",
+        "/bin/pl*",
+        "/bin/sfparse",
+        "/bin/xmlparse",
+        "/etc/GNUstep",
+        "/include",
+        "/lib/GNUstep",
+        "/share/GNUstep",
+        "/share/man"
+    ]
 }
