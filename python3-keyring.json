@@ -44,6 +44,12 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/8c/08/d3006317aefe25ea79d3b76c9650afabaf6d63d1c8443b236e7405447503/zipp-3.16.2-py3-none-any.whl",
             "sha256": "679e51dd4403591b2d6838a48de3d283f3d188412a9782faadf845f298736ba0"
+        },
+        "python3-cryptography-cargo-deps.json"
+    ],
+    "build-options": {
+        "env": {
+            "CARGO_HOME": "/run/build/python3-keyring/cargo"
         }
-    ]
+    }
 }
