@@ -111,7 +111,10 @@
         }
     ],
     "build-options" : {
-        "append-path" : "/usr/lib/sdk/rust-stable/bin"
+        "append-path" : "/usr/lib/sdk/rust-stable/bin",
+        "build-args" : [
+            "--share=network"
+        ]
     },
     "cleanup": [
         "/bin/cvtenc",
