@@ -104,8 +104,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.24.1/Komikku-v1.24.1.tar.bz2",
-                    "sha256" : "b608c96a3732dd38d22260fb96178e3bebbd6e312ca8055c338c998b699d7689"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.24.2/Komikku-v1.24.2.tar.bz2",
+                    "sha256" : "d786feb31112202e33bacc982391bbb1554d54f2c80cf673f4ca51f307ef8687"
                 }
             ]
         }
