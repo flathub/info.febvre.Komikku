@@ -1,15 +1,15 @@
 {
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43beta",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
-    "command" : "komikku",
     "tags" : [
         "beta"
     ],
+    "command" : "komikku",
     "finish-args" : [
         "--share=ipc",
         "--share=network",
@@ -34,7 +34,69 @@
         "python3-lxml.json",
         "python3-beautifulsoup4.json",
         "python3-brotli.json",
-        "python3-cloudscraper.json",
+        "python3-requests.json",
+        "python3-rarfile.json",
+        "python3-emoji.json",
+        "python3-piexif.json",
+        {
+            "name": "gnustep-make",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./configure --prefix=/app",
+                "make -j $FLATPAK_BUILDER_N_JOBS install"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/gnustep/tools-make/archive/make-2_9_1.tar.gz",
+                    "sha256": "78ef0f68402c379979a9a46499ac308fe5c1512aa198138c87649ee611aedf41",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1220,
+                        "stable-only": true,
+                        "url-template": "https://github.com/gnustep/tools-make/archive/make-$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "gnustep",
+            "buildsystem": "simple",
+            "build-commands": [
+                "./configure --prefix=/app --enable-xml=no",
+                "make -j $FLATPAK_BUILDER_N_JOBS install",
+                "ls /app/include"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/gnustep/libs-base/releases/download/base-1_29_0/gnustep-base-1.29.0.tar.gz",
+                    "sha256": "fa58eda665c3e0b9c420dc32bb3d51247a407c944d82e5eed1afe8a2b943ef37",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 9105,
+                        "stable-only": true,
+                        "url-template": "https://github.com/gnustep/libs-base/releases/download/base-$version/gnustep-base-1.$patch.0.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "unarchiver",
+            "buildsystem": "simple",
+            "build-commands": [
+                "sed -s -i 's#/usr/include/GNUstep#/app/include#g' */Makefile.linux && cd XADMaster && make -j $FLATPAK_BUILDER_N_JOBS -f Makefile.linux",
+                "install -m755 XADMaster/unar /app/bin/"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://cdn.theunarchiver.com/downloads/TheUnarchiverSource.zip",
+                    "sha256": "ac4cedf9b49375c0f805bda010fa03629d05ab283a0a8e35bf2dd01ae477e0a1",
+                    "strip-components": 0
+                }
+            ]
+        },
         {
             "name" : "komikku",
             "buildsystem" : "meson",
@@ -45,13 +107,35 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.0.beta4/Komikku-v1.0.beta4.tar.bz2",
-                    "sha256" : "f72ac2b8882bc1def36b102086c33d5de262a953842857f2f3ec4fab97b0e67e"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.25.0-beta/Komikku-v1.25.0-beta.tar.bz2",
+                    "sha256" : "1707752f7f21ed1f993921c1b385194265b857cb1f18963736c01d822a8a0ce6"
                 }
             ]
         }
     ],
     "build-options" : {
         "append-path" : "/usr/lib/sdk/rust-stable/bin"
-    }
+    },
+    "cleanup": [
+        "/bin/cvtenc",
+        "/bin/autogsdoc",
+        "/bin/debugapp",
+        "/bin/defaults",
+        "/bin/gdnc",
+        "/bin/gdomap",
+        "/bin/gnustep*",
+        "/bin/gspath",
+        "/bin/HTMLLinker",
+        "/bin/make_strings",
+        "/bin/openapp",
+        "/bin/opentool",
+        "/bin/pl*",
+        "/bin/sfparse",
+        "/bin/xmlparse",
+        "/etc/GNUstep",
+        "/include",
+        "/lib/GNUstep",
+        "/share/GNUstep",
+        "/share/man"
+    ]
 }
