@@ -1,7 +1,7 @@
 {
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -60,7 +60,7 @@
             "name": "gnustep",
             "buildsystem": "simple",
             "build-commands": [
-                "./configure --prefix=/app",
+                "./configure --prefix=/app --enable-xml=no",
                 "make -j $FLATPAK_BUILDER_N_JOBS install",
                 "ls /app/include"
             ],
@@ -104,8 +104,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.24.2/Komikku-v1.24.2.tar.bz2",
-                    "sha256" : "0a0d3f78cadab1f2294901329f8c6cfea0b50379110515843eebb8b3d431fbba"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.25.0/Komikku-v1.25.0.tar.bz2",
+                    "sha256" : "f9f069d5d6f5292adb08253dfc4d82fc034a75f08ac0ac9c89daee9afd0a8183"
                 }
             ]
         }
