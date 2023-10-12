@@ -26,6 +26,7 @@
         "python3-file-magic.json",
         "python3-natsort.json",
         "python3-pillow.json",
+        "python3-colorthief.json",
         "python3-pure-protobuf.json",
         "python3-unidecode.json",
         "python3-lxml.json",
@@ -116,8 +117,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.26.0/Komikku-v1.26.0.tar.bz2",
-                    "sha256" : "d24052bc2a5f623bf2a8c0696d732b55c727af1e6a082117fd7bcd6a95d2c80f"
+                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.27.0/Komikku-v1.27.0.tar.bz2",
+                    "sha256" : "65ffd654f5845f8ba9e73e056f7d6ba6c08746fbad0343a52caa3721b1b36447"
                 }
             ]
         }
