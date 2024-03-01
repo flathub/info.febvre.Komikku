@@ -1,7 +1,7 @@
 {
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "46beta",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -29,6 +29,7 @@
         "python3-file-magic.json",
         "python3-natsort.json",
         "python3-pillow.json",
+        "python3-colorthief.json",
         "python3-pure-protobuf.json",
         "python3-unidecode.json",
         "python3-lxml.json",
@@ -98,6 +99,18 @@
             ]
         },
         {
+            "name": "blueprint-compiler",
+            "buildsystem": "meson",
+            "cleanup": ["*"],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.10.0/blueprint-compiler-v0.10.0.tar.gz",
+                    "sha512": "1f2a9097e3d6a030385c371a01e32caefab6f7ede1979b43492255b504250ac7f44ae22a97656a7c33c0e518236b95d6074baf8f87c53df1fbb1e42eceb39a87"
+                }
+            ]
+        },
+        {
             "name" : "komikku",
             "buildsystem" : "meson",
             "builddir" : true,
@@ -107,8 +120,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://gitlab.com/valos/Komikku/-/archive/v1.25.0-beta/Komikku-v1.25.0-beta.tar.bz2",
-                    "sha256" : "1707752f7f21ed1f993921c1b385194265b857cb1f18963736c01d822a8a0ce6"
+                    "url" : "https://codeberg.org/valos/Komikku/archive/v1.40.beta1.tar.gz",
+                    "sha256" : "15f6d36b43461d1e811bf65996193905856cb16767ba957509304fa4164983c8"
                 }
             ]
         }
