@@ -1,10 +1,13 @@
 {
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "46beta",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
+    ],
+    "tags" : [
+        "beta"
     ],
     "command" : "komikku",
     "finish-args" : [
@@ -112,13 +115,13 @@
             "buildsystem" : "meson",
             "builddir" : true,
             "config-opts" : [
-                "-Dprofile=default"
+                "-Dprofile=beta"
             ],
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://codeberg.org/valos/Komikku/archive/v1.39.0.tar.gz",
-                    "sha256" : "7e11c04274359b9b6bf6f36e76b4b352ccdcf929a29fb29e7a8e3559aea3637b"
+                    "url" : "https://codeberg.org/valos/Komikku/archive/v1.40.beta1.tar.gz",
+                    "sha256" : "15f6d36b43461d1e811bf65996193905856cb16767ba957509304fa4164983c8"
                 }
             ]
         }
