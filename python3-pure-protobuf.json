@@ -2,13 +2,18 @@
     "name": "python3-pure-protobuf",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} pure-protobuf"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pure-protobuf\" --no-build-isolation"
     ],
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7d/90/85c89be09c81c13e5dcf9dee0ef0e9944723b8fc28a1e9f9289347c83126/pure_protobuf-2.0.0-py3-none-any.whl",
-            "sha256": "d1d6e6133b91f56cfda6d616e60890eabea0e2634ecb562717525684346451e9"
+            "url": "https://files.pythonhosted.org/packages/b7/f4/6a90020cd2d93349b442bfcb657d0dc91eee65491600b2cb1d388bc98e6b/typing_extensions-4.9.0-py3-none-any.whl",
+            "sha256": "af72aea155e91adfc61c3ae9e0e342dbc0cba726d6cba4b6c72c1f34e47291cd"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/b9/9b/f6df538f6bc7268e3722eb5422751909da105f87710317f0daf9679e5022/pure_protobuf-3.0.0-py3-none-any.whl",
+            "sha256": "ff58e90a1f35c2f95ca77a64b97d6277378265a010d31ba570bac480e54aacd2"
         }
     ]
 }
