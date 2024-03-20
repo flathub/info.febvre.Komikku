@@ -1,0 +1,19 @@
+{
+    "name": "python3-curl_cffi",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"curl_cffi\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl",
+            "sha256": "dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/0c/48/8c79ea18592590eaf49c051398c911dca43482bee22688516539251dcbb9/curl_cffi-0.6.2.tar.gz",
+            "sha256": "9ee519e960b5fc6e0bbf13d0ecba9ce5f6306cb929354504bf03cc30f59a8f63"
+        }
+    ]
+}

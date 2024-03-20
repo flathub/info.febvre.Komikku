@@ -1,13 +1,10 @@
 {
     "app-id" : "info.febvre.Komikku",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46beta",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.rust-stable"
-    ],
-    "tags" : [
-        "beta"
     ],
     "command" : "komikku",
     "finish-args" : [
@@ -30,12 +27,12 @@
         "python3-natsort.json",
         "python3-pillow.json",
         "python3-colorthief.json",
-        "python3-pure-protobuf.json",
         "python3-unidecode.json",
         "python3-lxml.json",
         "python3-beautifulsoup4.json",
         "python3-brotli.json",
         "python3-requests.json",
+        "python3-curl_cffi.json",
         "python3-rarfile.json",
         "python3-emoji.json",
         "python3-piexif.json",
@@ -115,13 +112,13 @@
             "buildsystem" : "meson",
             "builddir" : true,
             "config-opts" : [
-                "-Dprofile=beta"
+                "-Dprofile=default"
             ],
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://codeberg.org/valos/Komikku/archive/v1.40.beta1.tar.gz",
-                    "sha256" : "15f6d36b43461d1e811bf65996193905856cb16767ba957509304fa4164983c8"
+                    "url" : "https://codeberg.org/valos/Komikku/archive/v1.40.0.tar.gz",
+                    "sha256" : "53e102ceb5e6deacffb57b1fa1aced2cb2a736abf4b6c607b217c88e09779ad3"
                 }
             ]
         }
