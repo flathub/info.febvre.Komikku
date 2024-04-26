@@ -12,14 +12,14 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c1/1e/ccbe5cbb14b08e882628e8b50e6640f415256ec7a6e3084c9ce2765588d5/curl_cffi-0.6.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "37e513cc149d024a2d625e202f2cc9d4423d2937343ea2e06f797d99779e62dc",
+            "url": "https://files.pythonhosted.org/packages/a2/94/26f49de4ddc1085c71acefa9fbc8ecabc5b949055ab53217b8400a95012c/curl_cffi-0.6.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "4b4712bc9a8a0d933aef7051eaa5448b9a1c662f25dd83967dbdd46aa3e418c0",
             "only-arches": ["x86_64"]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7e/be/843013c413dbd5e9f36ae06bdf735e7c9feeec9b7f5a4cded813b20988dc/curl_cffi-0.6.2-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "3d01de6ed737ad1924aaa0198195b9020c38e77ce90ea3d72b9eacf4938c7adf",
+            "url": "https://files.pythonhosted.org/packages/0f/86/9a507111ae9d520126d48745cb44cbed66b509576d01a957d9cdab7fb4bd/curl_cffi-0.6.3-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "760b7b837c86626f2c9518c3bad42aad3b6ccb455499b648bc98e8dee9f73891",
             "only-arches": ["aarch64"]
         }
     ]
