@@ -1,0 +1,21 @@
+{
+    "name": "python3-pillow-heif",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pillow-heif\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/83/7a/afca4888bca50f63b5b702e73adaf7db92dc40939f81777a4f002a6928c8/pillow_heif-0.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "a8856cf5f0d53f83d814ae5c8d34433e5e5ad9f3e328480257cd6e9fbdb4a458",
+            "only-arches": ["x86_64"]
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/ed/e2/12f85ef4f81442729d378e261bdd5ccb95905d6f45c5facb39b87ce7c5fb/pillow_heif-0.16.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "28c980bf8d5239ee87986c9217a5954b07993d71d391949a9feafad0a9c5e9a7",
+            "only-arches": ["aarch64"]
+        }
+    ]
+}

@@ -26,6 +26,7 @@
         "python3-file-magic.json",
         "python3-natsort.json",
         "python3-pillow.json",
+        "python3-pillow-heif.json",
         "python3-colorthief.json",
         "python3-unidecode.json",
         "python3-lxml.json",
@@ -117,8 +118,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://codeberg.org/valos/Komikku/archive/v1.46.0.tar.gz",
-                    "sha256" : "46e8d6b723914864406a0b0155ce8b7ce5837b1414f32ce22a68c6df78df58c0"
+                    "url" : "https://codeberg.org/valos/Komikku/archive/v1.47.0.tar.gz",
+                    "sha256" : "5772d71b5644673b139d23a05dd5e3b79fe65c3da22fe1f76b620b28e4371a39"
                 }
             ]
         }
