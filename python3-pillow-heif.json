@@ -7,14 +7,14 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/83/7a/afca4888bca50f63b5b702e73adaf7db92dc40939f81777a4f002a6928c8/pillow_heif-0.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "a8856cf5f0d53f83d814ae5c8d34433e5e5ad9f3e328480257cd6e9fbdb4a458",
+            "url": "https://files.pythonhosted.org/packages/4b/71/a8b3684f64307b96ea0ae14594564b41fdf4d4a6f7df5ef73d180a71db5d/pillow_heif-0.18.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "35b59d599bfdb8454739db6b92f0841ecadbe887babb5ed5abd5299587843eef",
             "only-arches": ["x86_64"]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ed/e2/12f85ef4f81442729d378e261bdd5ccb95905d6f45c5facb39b87ce7c5fb/pillow_heif-0.16.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "28c980bf8d5239ee87986c9217a5954b07993d71d391949a9feafad0a9c5e9a7",
+            "url": "https://files.pythonhosted.org/packages/f8/61/f0aac50a7ad051e1cb71ed7a8d3a94b5e54ea8ed1acb03586f0fcdebd730/pillow_heif-0.18.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "eb2eade59c2654c2643a3b637de37c19e75a77c66a3e9a5e0ae26210e4f48aee",
             "only-arches": ["aarch64"]
         }
     ]
