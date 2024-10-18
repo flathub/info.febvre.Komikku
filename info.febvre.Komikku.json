@@ -120,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.59.0.tar.gz",
-                    "sha256": "9b81bc238c7b12c6bd5f5071819afe4d3343dc7fa298b117791ed2b853b03b59"
+                    "url": "https://codeberg.org/valos/Komikku/archive/v1.60.0.tar.gz",
+                    "sha256": "df62598b7af5e5e1dfc4a58fe369d2f003a1d8b6d6c25615e590150eb157a80b"
                 }
             ]
         }
