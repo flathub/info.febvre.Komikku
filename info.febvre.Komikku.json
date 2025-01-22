@@ -105,8 +105,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.12.0/blueprint-compiler-v0.12.0.tar.bz2",
-                    "sha512": "c1f2f1ab02773b8c9c1d92035a51cd3b5c769a129ea028e02b8d2d88a7a9cb44f14edefd0f8718b90313a22134d8cbab4f699942f7049edd3146b41735e68f56"
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.16.0/blueprint-compiler-v0.16.0.tar.bz2",
+                    "sha512": "9c8b3da532f7d9a36fa0993da295438afe57a5da03e122f3d9cc715dd7b7d99f2be52416f19a7a8d8523516f4f799cbb0a2c9ffafdef58a66163857542e5c8d7"
                 }
             ]
         },
@@ -120,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.67.0.tar.gz",
-                    "sha256": "8a482389a58ab9510a9563dba6d53239880144eb618a994e7864cb2886530bb9"
+                    "url": "https://codeberg.org/valos/Komikku/archive/v1.68.0.tar.gz",
+                    "sha256": "d6db52db72da5d4c35b81b8e17ab9154cea7b8e03f96be2f4802cea6fbc3c692"
                 }
             ]
         }
