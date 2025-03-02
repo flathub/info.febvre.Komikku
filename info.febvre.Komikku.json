@@ -13,7 +13,6 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--device=dri",
-        "--filesystem=xdg-pictures",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.gnome.SettingsDaemon.Color"
@@ -120,8 +119,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.70.0.tar.gz",
-                    "sha256": "7c96a445e2459829415e88a471ee04b24e057a944962e3617f3c153033c26e80"
+                    "url": "https://codeberg.org/valos/Komikku/archive/v1.71.0.tar.gz",
+                    "sha256": "4acc69d7748d9d7277b6e784a27100540888bab58bf16efcc99f1e7a91b6a506"
                 }
             ]
         }
