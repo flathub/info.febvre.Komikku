@@ -119,7 +119,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.73.0.tar.gz",
+                    "url": "https://codeberg.org/valos/Komikku/archive/1.73.0.tar.gz",
                     "sha256": "42b8c272ef1d1aaa466e0277ef28386247c3fd8309d26a8e47813d796d197a49"
                 }
             ]
