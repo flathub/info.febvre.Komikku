@@ -26,7 +26,7 @@
         "python3-natsort.json",
         "python3-pillow.json",
         "python3-pillow-heif.json",
-        "python3-colorthief.json",
+        "python3-modern-colorthief.json",
         "python3-unidecode.json",
         "python3-lxml.json",
         "python3-beautifulsoup4.json",
@@ -119,8 +119,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.75.0.tar.gz",
-                    "sha256": "f650e87bd794d39a4e5cde54d0f8d88f7febf3db0edb77dbe7ca15a253a1a0c3"
+                    "url": "https://codeberg.org/valos/Komikku/archive/v1.76.0.tar.gz",
+                    "sha256": "407d281830a6d7b3eed995e93b3376f82b24b689b812b75d046d6fd47559aa62"
                 }
             ]
         }
