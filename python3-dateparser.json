@@ -2,7 +2,7 @@
     "name": "python3-dateparser",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"dateparser\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"dateparser\" --no-build-isolation"
     ],
     "sources": [
         {
