@@ -2,7 +2,7 @@
     "name": "python3-modern-colorthief",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"modern-colorthief\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"modern-colorthief\" --no-build-isolation"
     ],
     "sources": [
         {
