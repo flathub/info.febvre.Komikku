@@ -7,14 +7,14 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/1f/be/47135bec8461339dab8ec8110afe496784f087485cf6007a355c3f47692b/modern_colorthief-0.1.7-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "34d962f3aaeaaf929ba28577b6411c2277d8cc85a7cc12d70cc312d9d404cc7a",
+            "url": "https://files.pythonhosted.org/packages/c0/2c/e047e2016f9c364fc672a3b31668f6ad866358bb666e8311c284da4db6ff/modern_colorthief-0.1.7-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "52a4c5b0a7865f9543712c2be168b3260bd0becbd0116bab3e69f3222c173906",
             "only-arches": ["x86_64"]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/63/2e/76cc8c723f0e77731c0a1d7e111857ce327a417c12021c401d4e2525a5c9/modern_colorthief-0.1.7-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-            "sha256": "92e03ffb80b856eb57243affd1b138b8052165e8804b5edd45747d6a316c0f6f",
+            "url": "https://files.pythonhosted.org/packages/99/de/e0dd7a42dc94495462429608005ed802dd1ac4aaa3aa1c324f54a5b53397/modern_colorthief-0.1.7-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+            "sha256": "0160212a6334f2ef24aa2060c949ca72209bb89a6dca66e9b3a5c4cb747c16d7",
             "only-arches": ["aarch64"]
         }
     ]
