@@ -1,7 +1,7 @@
 {
     "app-id": "info.febvre.Komikku",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -60,20 +60,21 @@
             "name": "gnustep",
             "buildsystem": "simple",
             "build-commands": [
-                "./configure --prefix=/app --enable-xml=no",
+                "./configure --prefix=/app --disable-xslt --disable-xml",
+                "sed -i 's/^#ADDITIONAL_CFLAGS +=.*/ADDITIONAL_CFLAGS += -std=gnu17/' Tools/Makefile.preamble",
                 "make -j $FLATPAK_BUILDER_N_JOBS install",
                 "ls /app/include"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/gnustep/libs-base/releases/download/base-1_31_0/gnustep-base-1.31.0.tar.gz",
-                    "sha256": "d493ed2ba2a32f559f94e2ae5e339c440ae77d481dff1eb0d51eeac4d9127e33",
+                    "url": "https://github.com/gnustep/libs-base/archive/refs/tags/base-1_31_1.tar.gz",
+                    "sha256": "612e4415efc486c9e7017b00b28b0e122dc739d29b8e5d57ce79bf1a86a9862b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 9105,
                         "stable-only": true,
-                        "url-template": "https://github.com/gnustep/libs-base/releases/download/base-$version/gnustep-base-1.$patch.0.tar.gz"
+                        "url-template": "https://github.com/gnustep/libs-base/archive/refs/tags/base-$version.tar.gz"
                     }
                 }
             ]
@@ -95,20 +96,6 @@
             ]
         },
         {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.16.0/blueprint-compiler-v0.16.0.tar.bz2",
-                    "sha512": "9c8b3da532f7d9a36fa0993da295438afe57a5da03e122f3d9cc715dd7b7d99f2be52416f19a7a8d8523516f4f799cbb0a2c9ffafdef58a66163857542e5c8d7"
-                }
-            ]
-        },
-        {
             "name": "komikku",
             "buildsystem": "meson",
             "builddir": true,
@@ -118,8 +105,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "051ed4e7ce9150d35a48a082199ec0021e11ca1b58ae694a52be85d297a9dcb7",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.87.0.tar.gz"
+                    "sha256": "a0b1f4d7345fbda918198acfcd4902e5ce9fbad1a04054151203e7bd26d4c5dd",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v1.88.0.tar.gz"
                 }
             ]
         }
@@ -128,6 +115,11 @@
         "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
     "cleanup": [
+        "/include",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
         "/bin/cvtenc",
         "/bin/autogsdoc",
         "/bin/debugapp",
@@ -144,9 +136,7 @@
         "/bin/sfparse",
         "/bin/xmlparse",
         "/etc/GNUstep",
-        "/include",
         "/lib/GNUstep",
-        "/share/GNUstep",
-        "/share/man"
+        "/share/GNUstep"
     ]
 }
