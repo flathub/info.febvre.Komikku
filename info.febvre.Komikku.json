@@ -25,7 +25,7 @@
         "python3-file-magic.json",
         "python3-natsort.json",
         "python3-pillow.json",
-        "python3-modern-colorthief.json",
+        "python3-colorthief.json",
         "python3-unidecode.json",
         "python3-lxml.json",
         "python3-beautifulsoup4.json",
@@ -35,6 +35,7 @@
         "python3-rarfile.json",
         "python3-emoji.json",
         "python3-piexif.json",
+        "python3-pypdf.json",
         {
             "name": "gnustep-make",
             "buildsystem": "simple",
@@ -105,8 +106,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "8add4846dfebf49aa7d7d5214470f2efd3859acc319c0ab0d468b6b3c1dafadb",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.89.0.tar.gz"
+                    "sha256": "918613570fe33b2da923f2dc6b377543fd899390d695dba64ebbb0cdb94abd59",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v1.90.0.tar.gz"
                 }
             ]
         }
