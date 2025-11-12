@@ -36,6 +36,7 @@
         "python3-emoji.json",
         "python3-piexif.json",
         "python3-pypdf.json",
+        "python3-pyjwt.json",
         {
             "name": "gnustep-make",
             "buildsystem": "simple",
@@ -106,8 +107,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "2f2828c198a02c5a499830e939ed9bcb4e42035ae1e609734de40faf879fc085",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.91.0.tar.gz"
+                    "sha256": "5f3a87ced251713051b1bd0ba1a66f26da24ab36fd4234f58072d07760a24877",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v1.92.0.tar.gz"
                 }
             ]
         }
