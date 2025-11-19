@@ -107,8 +107,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "5f3a87ced251713051b1bd0ba1a66f26da24ab36fd4234f58072d07760a24877",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.92.0.tar.gz"
+                    "sha256": "f60987f8ca17eb0938a3f664568c4a3f78bedf833f2a70e5007da0e91dcfceb7",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v1.93.0.tar.gz"
                 }
             ]
         }
