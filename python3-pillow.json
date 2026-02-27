@@ -7,14 +7,14 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7a/a9/7628f013f18f001c1b98d8fffe3452f306a70dc6aba7d931019e0492f45e/pillow-12.1.1-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
-            "sha256": "472a8d7ded663e6162dafdf20015c486a7009483ca671cece7a9279b512fcb13",
+            "url": "https://files.pythonhosted.org/packages/71/24/538bff45bde96535d7d998c6fed1a751c75ac7c53c37c90dc2601b243893/pillow-12.1.1-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "47b94983da0c642de92ced1702c5b6c292a84bd3a8e1d1702ff923f183594717",
             "only-arches": ["x86_64"]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a1/cd/134b0b6ee5eda6dc09e25e24b40fdafe11a520bc725c1d0bbaa5e00bf95b/pillow-12.1.1-cp313-cp313t-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
-            "sha256": "e9e8064fb1cc019296958595f6db671fba95209e3ceb0c4734c9baf97de04b20",
+            "url": "https://files.pythonhosted.org/packages/29/9b/d6ecd956bb1266dd1045e995cce9b8d77759e740953a1c9aad9502a0461e/pillow-12.1.1-cp313-cp313-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl",
+            "sha256": "5a8eb7ed8d4198bccbd07058416eeec51686b498e784eda166395a23eb99138e",
             "only-arches": ["aarch64"]
         }
     ]
