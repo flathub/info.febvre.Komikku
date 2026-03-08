@@ -1,0 +1,14 @@
+{
+    "name": "python3-jxlpy",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"jxlpy\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/4d/67/1f55dfb205d8a4063881618fb7c58ec64f9cc93a83ee4769d7083985cd6c/jxlpy-0.9.5.tar.gz",
+            "sha256": "2aa766f1bde180ed10df313af2b48833825deeea631be490cb04ac786c021542"
+        }
+    ]
+}
