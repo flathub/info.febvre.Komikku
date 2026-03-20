@@ -1,7 +1,7 @@
 {
     "app-id": "info.febvre.Komikku",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -22,7 +22,7 @@
         "python3-cffi.json",
         "python3-keyring.json",
         "python3-dateparser.json",
-        "python3-file-magic.json",
+        "python3-python-magic.json",
         "python3-natsort.json",
         "python3-pillow.json",
         "python3-jxlpy.json",
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "d05c58a6aa43d7673aed1b8a087ff5b385b95f5f028dabc35378b36e13076706",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v1.105.0.tar.gz"
+                    "sha256": "383bf3905cddcf51494ab7a8e2483750e4492a52e281622eae9e0d33618d6269",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v50.0.0.tar.gz"
                 }
             ]
         }
