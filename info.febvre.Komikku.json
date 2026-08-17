@@ -15,7 +15,8 @@
         "--device=dri",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.freedesktop.secrets",
-        "--talk-name=org.gnome.SettingsDaemon.Color"
+        "--talk-name=org.gnome.SettingsDaemon.Color",
+        "--env=TESSDATA_PREFIX=/app/share/tessdata/"
     ],
     "modules": [
         "python3-setuptools_rust.json",
