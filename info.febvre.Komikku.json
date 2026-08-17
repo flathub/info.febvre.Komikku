@@ -39,6 +39,7 @@
         "python3-emoji.json",
         "python3-piexif.json",
         "python3-pyjwt.json",
+        "python3-pytesseract.json",
         {
             "name": "gnustep-make",
             "buildsystem": "simple",
@@ -100,6 +101,62 @@
             ]
         },
         {
+            "name": "leptonica",
+            "buildsystem": "autotools",
+            "config-opts": [
+                "--disable-static"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/DanBloomberg/leptonica/releases/download/1.87.0/leptonica-1.87.0.tar.gz",
+                    "sha256": "c73363397f96eb1295602bf44d708a994ad42046c791bf03ea0505d829bdb6a7"
+                }
+            ]
+        },
+        {
+            "name": "tesseract",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "config-opts": ["-DBUILD_TRAINING_TOOLS=OFF", "-DCMAKE_BUILD_TYPE=Release"],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/tesseract-ocr/tesseract/archive/refs/tags/5.5.3.tar.gz",
+                    "sha256": "9218e62793116d42a9f6d14cd9348518b27f382096eea3d0f2d1a24616bb5884"
+                }
+            ],
+            "modules": [
+                {
+                    "name": "tesseract-data",
+                    "buildsystem": "simple",
+                    "build-commands": [
+                        "mkdir -p ${FLATPAK_DEST}/share/tessdata",
+                        "cp eng.traineddata ${FLATPAK_DEST}/share/tessdata/",
+                        "cp jpn.traineddata ${FLATPAK_DEST}/share/tessdata/",
+                        "cp jpn_vert.traineddata ${FLATPAK_DEST}/share/tessdata/"
+                    ],
+                    "sources": [
+                        {
+                            "type": "file",
+                            "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/4.1.0/eng.traineddata",
+                            "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+                        },
+                        {
+                            "type": "file",
+                            "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/4.1.0/jpn.traineddata",
+                            "sha256": "1f5de9236d2e85f5fdf4b3c500f2d4926f8d9449f28f5394472d9e8d83b91b4d"
+                        },
+                        {
+                            "type": "file",
+                            "url": "https://github.com/tesseract-ocr/tessdata/raw/4.1.0/jpn_vert.traineddata",
+                            "sha256": "36879c1aa07634302c9dcb2c1ed4f8fb347c705ad7522dd693ee2e9d68028a79"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "komikku",
             "buildsystem": "meson",
             "builddir": true,
@@ -109,8 +166,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "d7d640180ef28ce424e5c962ba40a15e80f1ef3914a149de5403f4bc48cb5db8",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v50.11.0.tar.gz"
+                    "sha256": "62544c3363ac12dd8f9d63072dd39969925cf492981af85e101dd034d0f7865b",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v50.12.0.tar.gz"
                 }
             ]
         }
