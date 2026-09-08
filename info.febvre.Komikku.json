@@ -177,11 +177,6 @@
         "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
     "cleanup": [
-        "/include",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
         "/bin/cvtenc",
         "/bin/autogsdoc",
         "/bin/debugapp",
@@ -198,7 +193,15 @@
         "/bin/sfparse",
         "/bin/xmlparse",
         "/etc/GNUstep",
+        "/include",
+        "/lib/*.a",
+        "/lib/*.la",
+        "/lib/cmake",
+        "/lib/debug",
         "/lib/GNUstep",
-        "/share/GNUstep"
+        "/lib/pkgconfig",
+        "/share/GNUstep",
+        "/share/gtk-doc",
+        "/share/man"
     ]
 }
