@@ -197,7 +197,6 @@
         "/lib/*.a",
         "/lib/*.la",
         "/lib/cmake",
-        "/lib/debug",
         "/lib/GNUstep",
         "/lib/pkgconfig",
         "/share/GNUstep",
