@@ -1,7 +1,7 @@
 {
     "app-id": "info.febvre.Komikku",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -134,14 +134,21 @@
                     "build-commands": [
                         "mkdir -p ${FLATPAK_DEST}/share/tessdata",
                         "cp eng.traineddata ${FLATPAK_DEST}/share/tessdata/",
+                        "cp fra.traineddata ${FLATPAK_DEST}/share/tessdata/",
                         "cp jpn.traineddata ${FLATPAK_DEST}/share/tessdata/",
-                        "cp jpn_vert.traineddata ${FLATPAK_DEST}/share/tessdata/"
+                        "cp jpn_vert.traineddata ${FLATPAK_DEST}/share/tessdata/",
+                        "cp spa.traineddata ${FLATPAK_DEST}/share/tessdata/"
                     ],
                     "sources": [
                         {
                             "type": "file",
                             "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/4.1.0/eng.traineddata",
                             "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+                        },
+                        {
+                            "type": "file",
+                            "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/4.1.0/fra.traineddata",
+                            "sha256": "ced037562e8c80c13122dece28dd477d399af80911a28791a66a63ac1e3445ca"
                         },
                         {
                             "type": "file",
@@ -152,6 +159,11 @@
                             "type": "file",
                             "url": "https://github.com/tesseract-ocr/tessdata/raw/4.1.0/jpn_vert.traineddata",
                             "sha256": "36879c1aa07634302c9dcb2c1ed4f8fb347c705ad7522dd693ee2e9d68028a79"
+                        },
+                        {
+                            "type": "file",
+                            "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/4.1.0/spa.traineddata",
+                            "sha256": "6f2e04d02774a18f01bed44b1111f2cd7f3ba7ac9dc4373cd3f898a40ea6b464"
                         }
                     ]
                 }
@@ -167,8 +179,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "40f1d190ed993002ef991c63e85d3193113179b8db64710c26142ce3bc41fbb1",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v50.15.0.tar.gz"
+                    "sha256": "a39bbd1d17d2ba82029f4e008eb029ea4801ac78b804d2b37328fc9e9183ee31",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v51.0.0.tar.gz"
                 }
             ]
         }
