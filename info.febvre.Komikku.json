@@ -41,6 +41,7 @@
         "python3-piexif.json",
         "python3-pyjwt.json",
         "python3-pytesseract.json",
+        "python3-colorlog.json",
         {
             "name": "gnustep-make",
             "buildsystem": "simple",
