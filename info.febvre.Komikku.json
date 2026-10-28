@@ -41,6 +41,7 @@
         "python3-piexif.json",
         "python3-pyjwt.json",
         "python3-pytesseract.json",
+        "python3-colorlog.json",
         {
             "name": "gnustep-make",
             "buildsystem": "simple",
@@ -179,8 +180,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "f111171093b044b1ae3765c27edd2d5e874c2607e3ce087f70bc642886334eec",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v51.1.0.tar.gz"
+                    "sha256": "dd72ed8803225077673407bf72c5e89ad84e20f6f788bd2994db948c585a0053",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v51.2.1.tar.gz"
                 }
             ]
         }
