@@ -1,7 +1,7 @@
 {
     "app-id": "info.febvre.Komikku",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -180,8 +180,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "dd72ed8803225077673407bf72c5e89ad84e20f6f788bd2994db948c585a0053",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v51.2.1.tar.gz"
+                    "sha256": "26124423c0e3bb61b708fb0080fb70851ee855aff44fd5a3a5901f753de67a77",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v51.3.0.tar.gz"
                 }
             ]
         }
