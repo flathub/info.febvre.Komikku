@@ -3,9 +3,6 @@
     "runtime": "org.gnome.Platform",
     "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
-    "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.rust-stable"
-    ],
     "command": "komikku",
     "finish-args": [
         "--share=ipc",
@@ -19,7 +16,6 @@
         "--env=TESSDATA_PREFIX=/app/share/tessdata/"
     ],
     "modules": [
-        "python3-setuptools_rust.json",
         "python3-cffi.json",
         "python3-keyring.json",
         "python3-dateparser.json",
@@ -180,15 +176,12 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "42c6e81afe67f405b38f841bf200f39a9b0529a885fb65769591cee0b42fcc17",
-                    "url": "https://codeberg.org/valos/Komikku/archive/v51.4.0.tar.gz"
+                    "sha256": "8209ff9a7194787a156a6b0e2701ab6b0c6c5b1848d05949cf5fcb6ebe20a305",
+                    "url": "https://codeberg.org/valos/Komikku/archive/v51.5.0.tar.gz"
                 }
             ]
         }
     ],
-    "build-options": {
-        "append-path": "/usr/lib/sdk/rust-stable/bin"
-    },
     "cleanup": [
         "/bin/cvtenc",
         "/bin/autogsdoc",
